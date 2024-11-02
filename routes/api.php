@@ -21,7 +21,19 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 Route::middleware('auth:sanctum')->group(function () {
     Route::apiResource('mahasiswas', MahasiswaController::class);
+    Route::get('/mahasiswa/{id}', [MahasiswaController::class, 'show']); // Adjust method if you have a different one
+    Route::get('/mahasiswa',[MahasiswaController::class, 'index']);
+    Route::post('/mahasiswa',[MahasiswaController::class, 'store']);
+    Route::put('/mahasiswa/{id}',[MahasiswaController::class, 'update']);
+    Route::delete('/mahasiswa/{id}',[MahasiswaController::class, 'destroy']);
+    
+
 });
+
+Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
+    return $request->user();
+});
+
 
 Route::post('/register', [AuthController::class, 'register']);
 Route::post('/login', [AuthController::class, 'login']);
