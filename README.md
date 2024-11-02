@@ -1,66 +1,43 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+Nama : Dwi Ayu Setiawati
+Kelas : 2A TRPL
+NIM : 362358302073
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Praktikum
+Register User 
+Method : Post
+![Screenshot (77)](https://github.com/user-attachments/assets/8e843bb7-c947-47ee-b20e-08f5d83d4fcb)
 
-## About Laravel
+Login User
+Method : Post
+![Screenshot (78)](https://github.com/user-attachments/assets/11aa312e-fb60-4a75-be20-6cc3c6a3df6b)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Menyimpan data mhs
+Method : Post
+![Screenshot (81)](https://github.com/user-attachments/assets/2c472e9c-4c47-4452-b8e5-ad89a29571e5)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Mengambil data mhs
+Method : Get
+![Screenshot (80)](https://github.com/user-attachments/assets/eea34632-48d1-42b7-bb5e-77a42b982ab8)
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Mengahpus data mhs(hanya admin)
+Method : Delete
+![Screenshot (83)](https://github.com/user-attachments/assets/f72375af-8533-45e0-8fb1-25e1136c6105)
 
-## Learning Laravel
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+TUGAS 
+1. Create data mahasiswa
+   ![Screenshot (96)](https://github.com/user-attachments/assets/97ac5571-230f-4aeb-af35-110239c7df67)
 
-## Laravel Sponsors
+3. Get data Mahasiswa
+   ![Screenshot (97)](https://github.com/user-attachments/assets/f2aba1d8-fe3b-4166-9224-79446e63647a)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+4. Update
+   ![Capture2](https://github.com/user-attachments/assets/bed4a034-f37e-42c0-a62e-f9d637fd80bd)
 
-### Premium Partners
+5. Delete
+   ![Capture3](https://github.com/user-attachments/assets/6fda0357-9e8a-4112-953e-dee4bfecc95c)
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
 
-## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
